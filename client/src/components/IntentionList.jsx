@@ -1,3 +1,5 @@
+import React from 'react';
+
   const IntentionList = (props) => {
     return (
       <div>

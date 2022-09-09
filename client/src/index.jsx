@@ -1,17 +1,15 @@
-// import React from 'react';
-// import ReactDOM from 'react-dom';
-// var React = require('react');
-// var ReactDOM = require('react-dom');
+import React from 'react';
+import ReactDOM from 'react-dom';
 // import data from '../../database/data'
-import IntentionList from './components/intentionList.jsx'
-import SuggestionItem from './components/suggestionItem.jsx'
-// import Card from 'react-bootstrap/Card';
+import IntentionList from './components/IntentionList.jsx'
+import SuggestionItem from './components/SuggestionItem.jsx'
+import $ from 'jquery';
 
 class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      intentions: data,
+      intentions: [],
       status: 'intentions',
       activeIntention: null,
       activeSuggestion: null
@@ -25,15 +23,23 @@ class App extends React.Component {
   }
 
   componentDidMount() {
-    // this has not been tested
-    // make get request to route defined in server
     console.log("component mounted");
-    const res = new Promise((resolve, reject) => {
-      return fetch('http://localhost:3001/api/intentions');
+
+    // make get request to route defined in server
+    /*
+    Pattern:
+    $.get(endpoint)
+    .then(response => {
+      console.log(response)
+      this.setState({
+        intentions: response.intentions,
+      })
     })
-    .then((data) => console.log(data))
+    */
 
   }
+
+
   setActiveIntention(intention){
     this.setState({
       status: 'suggestion',
