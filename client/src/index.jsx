@@ -24,19 +24,12 @@ class App extends React.Component {
 
   componentDidMount() {
     console.log("component mounted");
-
-    // make get request to route defined in server
-    /*
-    Pattern:
-    $.get(endpoint)
-    .then(response => {
-      console.log(response)
-      this.setState({
-        intentions: response.intentions,
-      })
+    $.get('api/intentions')
+    .then(intentions => {
+      console.log(`client received intentions:`)
+      console.log(intentions)
+      this.setState({intentions})
     })
-    */
-
   }
 
 
