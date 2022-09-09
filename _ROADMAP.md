@@ -29,12 +29,15 @@ Once the project moves into development, the press release can be used as a touc
   [x] Intention page displays a random suggestion from Intention
   [x] Button on suggestion page label "New suggestion" displays a new random suggestion from Intention
   [x] Button on suggestion page label "New Intention" returns to list of intentions
-  [ ] App loads data from mongo
-  [ ] Express routes to react app
+  [x] App loads data from mongo
+  [x] Express routes to react app
+  [x] Compile suggestions from book
+  [] Add more suggestions to db
+  [] Bootstrap to make everything look nicer
 
 ------ Likely MVP cutoff ------
 
-  [] Bootstrap to make everything look nicer
+
   [] Search button to choose an Intention (if they don't easily fit in page view)
   [] Search button to find a suggestion and its Intention
   [] Page for each suggestion /:Intention/:suggestion
