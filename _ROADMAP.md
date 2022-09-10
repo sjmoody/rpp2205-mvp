@@ -17,45 +17,44 @@ Once the project moves into development, the press release can be used as a touc
  -->
 
 ## Open questions and issues
-- I can't use normal import in the jsx file and I don't know how to solve it. Getting error "Uncaught TypeError: Failed to resolve module specifier "react-bootstrap/Card". Relative references must start with either "/", "./", or "../".
+None
 
 ## Features to Build (versions) ##
-  [x] Mongodb of Intentions with an array of their suggestions
-  [x] Hello world root page with express router
-  [x] Hello world root page returns JSON with express router
-  [x] Intention page with static data in html file
-  [x] Intention page with static data in JSX file
-  [x] Intention page loads Intention from React state
-  [x] Intention page displays a random suggestion from Intention
-  [x] Button on suggestion page label "New suggestion" displays a new random suggestion from Intention
-  [x] Button on suggestion page label "New Intention" returns to list of intentions
-  [x] App loads data from mongo
-  [x] Express routes to react app
-  [x] Compile suggestions from book
-  [x] Add more suggestions to db
-  [x] Bootstrap to make everything look nicer
+  - [x] Mongodb of Intentions with an array of their suggestions
+  - [x] Hello world root page with express router
+  - [x] Hello world root page returns JSON with express router
+  - [x] Intention page with static data in html file
+  - [x] Intention page with static data in JSX file
+  - [x] Intention page loads Intention from React state
+  - [x] Intention page displays a random suggestion from Intention
+  - [x] Button on suggestion page label "New suggestion" displays a new random suggestion from Intention
+  - [x] Button on suggestion page label "New Intention" returns to list of intentions
+  - [x] App loads data from mongo
+  - [x] Express routes to react app
+  - [x] Compile suggestions from book
+  - [x] Add more suggestions to db
+  - [x] Bootstrap to make everything look nicer
 
 ------ Likely MVP cutoff ------
 
 
-  [] Search button to choose an Intention (if they don't easily fit in page view)
-  [] Search button to find a suggestion and its Intention
-  [] Page for each suggestion /:Intention/:suggestion
-  [] intention-suggestion page shows inspiration for that suggestion
-  [] Button to load a random Intention on home page
-  [] 1 minute Timer to choose a new suggestion
-  [] Timer automatically chooses a new suggestion
-  [] Timer beeps for new suggestion
-  [] Timer you can set for one of many durations
-  [] Change Random button to shuffle which stores suggestions you've already used and offers a new one
-  [] Save state in cookie for a given device
-  [] Users can sign up and track their progress
-  [] Users can suggest new action ideas for each Intention
-  [] Users can suggest new Intentions
-  [] Users can suggest visual inspo for a Intention
-  [] Users can upvote or downvote suggestions for a Intention
-  [] App has vibes of Keith
-  []
+  - [] Search button to choose an Intention (if they don't easily fit in page view)
+  - [] Search button to find a suggestion and its Intention
+  - [] Page for each suggestion /:Intention/:suggestion
+  - [] intention-suggestion page shows inspiration for that suggestion
+  - [] Button to load a random Intention on home page
+  - [] 1 minute Timer to choose a new suggestion
+  - [] Timer automatically chooses a new suggestion
+  - [] Timer beeps for new suggestion
+  - [] Timer you can set for one of many durations
+  - [] Change Random button to shuffle which stores suggestions you've already used and offers a new one
+  - [] Save state in cookie for a given device
+  - [] Users can sign up and track their progress
+  - [] Users can suggest new action ideas for each Intention
+  - [] Users can suggest new Intentions
+  - [] Users can suggest visual inspo for a Intention
+  - [] Users can upvote or downvote suggestions for a Intention
+  - [] App has vibes of Keith
 
 
 
