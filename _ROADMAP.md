@@ -32,8 +32,8 @@ Once the project moves into development, the press release can be used as a touc
   [x] App loads data from mongo
   [x] Express routes to react app
   [x] Compile suggestions from book
-  [] Add more suggestions to db
-  [] Bootstrap to make everything look nicer
+  [x] Add more suggestions to db
+  [x] Bootstrap to make everything look nicer
 
 ------ Likely MVP cutoff ------
 

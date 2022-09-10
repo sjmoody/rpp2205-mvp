@@ -3,7 +3,7 @@ import React from 'react';
 const SuggestionItem = (props) => {
   return (
     <div>
-      <h2>{props.suggestion}</h2>
+      <h5>{props.suggestion}</h5>
     </div>
   )
 };

@@ -4,6 +4,10 @@ import ReactDOM from 'react-dom';
 import IntentionList from './components/IntentionList.jsx'
 import SuggestionItem from './components/SuggestionItem.jsx'
 import $ from 'jquery';
+import Card from 'react-bootstrap/Card';
+import Button from 'react-bootstrap/Button';
+import Stack from 'react-bootstrap/Stack'
+import Container from 'react-bootstrap/Container'
 
 class App extends React.Component {
   constructor(props) {
@@ -88,17 +92,29 @@ class App extends React.Component {
     if (status == 'intentions'){
       return (
         <div>
+          <Container>
           <h1>Fast Food Stanislavski</h1>
+          <h5>Choose an intention:</h5>
           <IntentionList onClick={this.handleSelectIntention} intentions={intentions}/>
+          </Container>
         </div>
       )
     } else {
       return (
         <div>
-          <h1>{activeIntention}</h1>
-          <button onClick={this.handleNewIntention}>New Intention</button>
-          <button onClick={this.handleNewSuggestion}>New Suggestion</button>
-          <SuggestionItem suggestion={activeSuggestion}/>
+          <Card>
+          <Card.Header>{activeIntention}</Card.Header>
+            <Card.Body>
+            <Card.Text><SuggestionItem suggestion={activeSuggestion}/></Card.Text>
+            </Card.Body>
+            <Card.Body>
+            <Stack direction="horizontal" gap={3}>
+          <Button  variant="outline-secondary " onClick={this.handleNewIntention}>New Intention</Button>
+          <Button variant="outline-success" onClick={this.handleNewSuggestion}>New Suggestion</Button>
+          </Stack>
+          </Card.Body>
+        </Card>
+
 
         </div>
       )
