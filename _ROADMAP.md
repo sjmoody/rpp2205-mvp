@@ -38,23 +38,23 @@ None
 ------ Likely MVP cutoff ------
 
 
-  - [] Search button to choose an Intention (if they don't easily fit in page view)
-  - [] Search button to find a suggestion and its Intention
-  - [] Page for each suggestion /:Intention/:suggestion
-  - [] intention-suggestion page shows inspiration for that suggestion
-  - [] Button to load a random Intention on home page
-  - [] 1 minute Timer to choose a new suggestion
-  - [] Timer automatically chooses a new suggestion
-  - [] Timer beeps for new suggestion
-  - [] Timer you can set for one of many durations
-  - [] Change Random button to shuffle which stores suggestions you've already used and offers a new one
-  - [] Save state in cookie for a given device
-  - [] Users can sign up and track their progress
-  - [] Users can suggest new action ideas for each Intention
-  - [] Users can suggest new Intentions
-  - [] Users can suggest visual inspo for a Intention
-  - [] Users can upvote or downvote suggestions for a Intention
-  - [] App has vibes of Keith
+  - [ ] Search button to choose an Intention (if they don't easily fit in page view)
+  - [ ] Search button to find a suggestion and its Intention
+  - [ ] Page for each suggestion /:Intention/:suggestion
+  - [ ] intention-suggestion page shows inspiration for that suggestion
+  - [ ] Button to load a random Intention on home page
+  - [ ] 1 minute Timer to choose a new suggestion
+  - [ ] Timer automatically chooses a new suggestion
+  - [ ] Timer beeps for new suggestion
+  - [ ] Timer you can set for one of many durations
+  - [ ] Change Random button to shuffle which stores suggestions you've already used and offers a new one
+  - [ ] Save state in cookie for a given device
+  - [ ] Users can sign up and track their progress
+  - [ ] Users can suggest new action ideas for each Intention
+  - [ ] Users can suggest new Intentions
+  - [ ] Users can suggest visual inspo for a Intention
+  - [ ] Users can upvote or downvote suggestions for a Intention
+  - [ ] App has vibes of Keith
 
 
 
