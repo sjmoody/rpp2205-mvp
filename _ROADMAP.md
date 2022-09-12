@@ -34,7 +34,7 @@ None
   - [x] Compile suggestions from book
   - [x] Add more suggestions to db
   - [x] Bootstrap to make everything look nicer
-
+  - [x] Deploy to Netlify
 ------ Likely MVP cutoff ------
 
 
